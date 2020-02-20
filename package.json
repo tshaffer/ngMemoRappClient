@@ -1,0 +1,44 @@
+{
+  "name": "memo-rapp-client",
+  "version": "0.0.1",
+  "description": "Client for memo rapp",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "buildW": "webpack --watch",
+    "ogBuild": "node node_modules/webpack/bin/webpack --config ./webpack.config.js",
+    "ogBuildW": "node node_modules/webpack/bin/webpack --config ./webpack.config.js --watch",
+    "otsLint": "tslint -c tslint.json 'src/**/*.ts'",
+    "tslint": "tslint --project tsconfig.json --config tslint.json \"src/**/*.ts\"",
+    "tslintX": "tslint --project tsconfig.json --config tslint.json \"src/**/*.tsx\""
+  },
+  "author": "OldManShaffer",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "axios": "^0.19.2",
+    "history": "^4.10.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "typesafe-actions": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/history": "^4.7.4",
+    "@types/material-ui": "^0.21.7",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.0.8",
+    "copy-webpack-plugin": "^4.2.3",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
