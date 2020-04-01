@@ -1,5 +1,5 @@
 {
-  "name": "ng-memo-rapp-client",
+  "name": "memo-rapp-client",
   "version": "0.0.1",
   "dependencies": {
     "@babel/runtime": {

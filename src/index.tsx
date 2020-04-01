@@ -11,8 +11,8 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import { rootReducer } from './models';
 
 import App from './components/app';
-import Activities from './components/activities';
-import DetailedActivity from './components/detailedActivity';
+// import Activities from './components/activities';
+// import DetailedActivity from './components/detailedActivity';
 
 const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
@@ -25,8 +25,6 @@ ReactDOM.render(
     <HashRouter>
       <Switch>
         <Route exact path='/' component={App} />
-        <Route exact path='/detailedActivity/:id' component={DetailedActivity}/>
-        <Route exact path='/activities' component={Activities} />
       </Switch>
     </HashRouter>
   </Provider>,

@@ -1,5 +1,5 @@
 {
-  "name": "memo-rapp-client",
+  "name": "ng-memo-rapp-client",
   "version": "0.0.1",
   "description": "Client for memo rapp",
   "main": "index.js",
